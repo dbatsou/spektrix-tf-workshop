@@ -19,3 +19,8 @@ az storage container create --name $containerName--account-name $storageAccount 
 az group create --name $storageAccount --location $location$
 
 az storage account create --name "bskt87654" --resource-group "bskt-infra133" --location $location$ 
+
+again remember to select sandbox sub scription
+"937c854e-4afb-4727-82ec-1bc86b6ed1d9"
+
+ az account set --subscription "XXXXXXX-4afb-4727-82ec-1bc86b6ed1d9"
