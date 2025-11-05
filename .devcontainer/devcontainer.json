@@ -13,7 +13,8 @@
         "GitHub.copilot",
         "esbenp.prettier-vscode",
         "ms-azuretools.vscode-azureterraform",
-        "ms-azuretools.vscode-azurestorage"
+        "ms-azuretools.vscode-azurestorage",
+        "hashicorp.terraform"
       ]
     }
   }
