@@ -1,0 +1,45 @@
+Terraform touch points
+
+Goal: become more familiar with how a terraform project is structured, not become experts.
+
+Outcome: azure web app running a public docker image (find one) - use 3.0 from past
+
+
+
+
+1) make intro from slides
+2) talk abouts variables
+3) resources - data blocks
+4) az login 
+5) create storage account using the az cli - give em script - ask to change name 
+6) terraform init - 
+7) because no access to storage container - terraform show - see empty state 
+8) add resource group - using variables - prompt them to change the variable file
+tenantID - subscription id variables 
+9) terraform validate - plan - apply
+
+continue on slides,
+
+Explain difference between resource and data blocks 
+
+State file lease - what it means
+Say what happens when terraform fails and lease has not been released
+Mention PIM procedure for access to storage accounts 
+
+
+move on adding app service plan
+run plan again
+
+explain that terraform will work out the dependencies between resources 
+
+
+terraform apply - wait
+terraform show for resources
+
+----
+
+make changes to azure manually and then run a plan.
+
+destroy everything
+
+
